@@ -34,11 +34,48 @@ Students who complete this module will
 Grading
 -------
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Homework exercises (best 5 of 9 scores) | 20% |
-| Class interaction | 5% |
-| Final exam | 75% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework exercises (best 5 of 9 scores)
+{{< tdclose >}}
+{{< tdopen >}}
+20%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Class interaction
+{{< tdclose >}}
+{{< tdopen >}}
+5%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final exam
+{{< tdclose >}}
+{{< tdopen >}}
+75%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 The homework evaluation will count only the best five assignment scores. However, it should be noted that some exercises build on earlier ones. Therefore students should recognize that it is not generally possible simply to omit early assignments. Moreover, the exercises are designed to develop understanding and skill with the material that will be valuable for the final exam.
 
@@ -51,32 +88,321 @@ Students who lack specific mathematics or science background in the areas discus
 
 ### {{< anchor "readings" >}}{{< /anchor >}}Reference Books
 
-| BOOKS | COMMENTARIES |
-| --- | --- |
-| Press, W. H., B. P. Flannery, et al. _Numerical Recipes_. Cambridge University Press, 1989. ISBN: 9780521383301. | This is an outstanding, readable, and practical introduction to numerical methods in science and engineering. It covers more than this course, but is the number one book recommendation. |
-| Jardin, Stephen. _Computational Methods in Plasma Physics_. CRC Press, 2010. ISBN: 9781439810217. \[Preview with [Google Books](http://books.google.com/books?id=gZzf_B56FDcC&pg=PAfrontcover)\] | Although focused on plasma physics, this book gives excellent introductions to finite difference PDE equations and the methods for solving them, across the spectrum of equation types. |
-| Nakamura, Shoichi. _Computational Methods in Engineering and Science with applications to Fluid Dynamics and Nuclear Systems_. John Wiley & Sons Inc, 1977. ISBN: 9780471018001. | This book covers numerical methods in the nuclear reactor context, and therefore has some useful specialist topics. However, its mathematics is not, in my opinion, clearly written, and it is hard to learn from because of it. |
-| Hebert, Alain. _Applied Reactor Physics_. Ecole Polytechnique De Montreal, 2009. ISBN: 9782553014369. \[Preview with [Google Books](http://books.google.com/books?id=sibA5ECQ8LoC&pg=PAfrontcover)\] | This modern reactor physics text book has numerical methods liberally sprinkled in its development and a useful appendix addressing them directly. Naturally its reactor physics goes far beyond what we will cover. |
-|  {{< br >}}{{< br >}} Smith, G. D. _Numerical Solution of Partial Differential Equations_. Clarendon Press, 1965. {{< br >}}{{< br >}} Forsythe, George E., and Wolfgang R. Wasow. _Finite Difference Methods for Partial Differential Equations_. Literary Licensing, 2013. ISBN: 9781258664152. {{< br >}}{{< br >}} Mitchell, A. R., and D. F. Griffiths. _The Finite Difference Method in Partial Differential Equations_. Wiley-Blackwell, 1980. ISBN: 9780471276418. {{< br >}}{{< br >}}  | These are three examples of the large selection of text books that address how to solve partial differential equations numerically. |
-| Hockney, R. W., and J. W. Eastwood. _Computer Simulation Using Particles_. CRC Press, 1988. ISBN: 9780852743928. \[Preview with [Google Books](http://books.google.com/books?id=nTOFkmnCQuIC&pg=PAfrontcover)\] | This is a classic on particle simulation, especially plasma PIC approaches, but has a lot of additional material on other topics of the course. |
-| [NIST / SEMATECH e-Handbook of Statistical Methods](http://www.itl.nist.gov/div898/handbook/) | A good resource about data fitting. 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+BOOKS
+{{< thclose >}}
+{{< thopen >}}
+COMMENTARIES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Press, W. H., B. P. Flannery, et al. _Numerical Recipes_. Cambridge University Press, 1989. ISBN: 9780521383301.
+{{< tdclose >}}
+{{< tdopen >}}
+This is an outstanding, readable, and practical introduction to numerical methods in science and engineering. It covers more than this course, but is the number one book recommendation.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Jardin, Stephen. _Computational Methods in Plasma Physics_. CRC Press, 2010. ISBN: 9781439810217. \[Preview with [Google Books](http://books.google.com/books?id=gZzf_B56FDcC&pg=PAfrontcover)\]
+{{< tdclose >}}
+{{< tdopen >}}
+Although focused on plasma physics, this book gives excellent introductions to finite difference PDE equations and the methods for solving them, across the spectrum of equation types.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Nakamura, Shoichi. _Computational Methods in Engineering and Science with applications to Fluid Dynamics and Nuclear Systems_. John Wiley & Sons Inc, 1977. ISBN: 9780471018001.
+{{< tdclose >}}
+{{< tdopen >}}
+This book covers numerical methods in the nuclear reactor context, and therefore has some useful specialist topics. However, its mathematics is not, in my opinion, clearly written, and it is hard to learn from because of it.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hebert, Alain. _Applied Reactor Physics_. Ecole Polytechnique De Montreal, 2009. ISBN: 9782553014369. \[Preview with [Google Books](http://books.google.com/books?id=sibA5ECQ8LoC&pg=PAfrontcover)\]
+{{< tdclose >}}
+{{< tdopen >}}
+This modern reactor physics text book has numerical methods liberally sprinkled in its development and a useful appendix addressing them directly. Naturally its reactor physics goes far beyond what we will cover.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Smith, G. D. _Numerical Solution of Partial Differential Equations_. Clarendon Press, 1965.
+
+Forsythe, George E., and Wolfgang R. Wasow. _Finite Difference Methods for Partial Differential Equations_. Literary Licensing, 2013. ISBN: 9781258664152.
+
+Mitchell, A. R., and D. F. Griffiths. _The Finite Difference Method in Partial Differential Equations_. Wiley-Blackwell, 1980. ISBN: 9780471276418.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+These are three examples of the large selection of text books that address how to solve partial differential equations numerically.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hockney, R. W., and J. W. Eastwood. _Computer Simulation Using Particles_. CRC Press, 1988. ISBN: 9780852743928. \[Preview with [Google Books](http://books.google.com/books?id=nTOFkmnCQuIC&pg=PAfrontcover)\]
+{{< tdclose >}}
+{{< tdopen >}}
+This is a classic on particle simulation, especially plasma PIC approaches, but has a lot of additional material on other topics of the course.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[NIST / SEMATECH e-Handbook of Statistical Methods](http://www.itl.nist.gov/div898/handbook/)
+{{< tdclose >}}
+{{< tdopen >}}
+A good resource about data fitting.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Calendar
 --------
 
-| LEC # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| 1 | Numerical fitting of data | Exercise 1 out |
-| 2 | Ordinary differential equations (ODEs) | Exercise 2 out |
-| 3 | Two–point boundary conditions |  {{< br >}}{{< br >}} Exercise 3 out {{< br >}}{{< br >}} Exercise 1 due {{< br >}}{{< br >}}  |
-| 4 | Partial differential equations (PDEs) |  {{< br >}}{{< br >}} Exercise 4 out {{< br >}}{{< br >}} Exercise 2 due {{< br >}}{{< br >}}  |
-| 5 | Diffusion; parabolic PDEs |  {{< br >}}{{< br >}} Exercise 5 out {{< br >}}{{< br >}} Exercise 3 due {{< br >}}{{< br >}}  |
-| 6 | Elliptic problems and iterative matrix solution |  {{< br >}}{{< br >}} Exercise 6 out {{< br >}}{{< br >}} Exercise 4 due {{< br >}}{{< br >}}  |
-| 7 | Fluid dynamics and hyperbolic equations |  {{< br >}}{{< br >}} Exercise 7 out {{< br >}}{{< br >}} Exercise 5 due {{< br >}}{{< br >}}  |
-| 8 | Boltzmann's equation and its solution |  {{< br >}}{{< br >}} Exercise 8 out {{< br >}}{{< br >}} Exercise 6 due {{< br >}}{{< br >}}  |
-| 9 | Neutron transport |  {{< br >}}{{< br >}} Exercise 9 out {{< br >}}{{< br >}} Exercise 7 due {{< br >}}{{< br >}}  |
-| 10 | Atomistic and particle-in-cell methods | Exercise 8 due |
-| 11 | Monte Carlo techniques | &nbsp; |
-| 12 | Monte Carlo radiation transport | Exercise 9 due |
-| 13 | Next steps, e.g. finite elements | &nbsp; |
-| 14 | Final exam (3 hour period) |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Numerical fitting of data
+{{< tdclose >}}
+{{< tdopen >}}
+Exercise 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Ordinary differential equations (ODEs)
+{{< tdclose >}}
+{{< tdopen >}}
+Exercise 2 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Two–point boundary conditions
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 3 out
+
+Exercise 1 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Partial differential equations (PDEs)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 4 out
+
+Exercise 2 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Diffusion; parabolic PDEs
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 5 out
+
+Exercise 3 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Elliptic problems and iterative matrix solution
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 6 out
+
+Exercise 4 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Fluid dynamics and hyperbolic equations
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 7 out
+
+Exercise 5 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Boltzmann's equation and its solution
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 8 out
+
+Exercise 6 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Neutron transport
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Exercise 9 out
+
+Exercise 7 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Atomistic and particle-in-cell methods
+{{< tdclose >}}
+{{< tdopen >}}
+Exercise 8 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Monte Carlo techniques
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Monte Carlo radiation transport
+{{< tdclose >}}
+{{< tdopen >}}
+Exercise 9 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Next steps, e.g. finite elements
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Final exam (3 hour period)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

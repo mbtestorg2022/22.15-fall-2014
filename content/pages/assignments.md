@@ -16,14 +16,119 @@ Academic expectations for homework:
 
 While the homework grade will count only the best five scores, it should be noted that some exercises build on earlier ones. Therefore students should recognize that it is not generally possible simply to omit early assignments. Moreover, the exercises are designed to develop understanding and skill with the material that will be valuable for the final exam.
 
-| EXERCISES | SUPPORTING MATERIALS |
-| --- | --- |
-| [Exercise 1. Data Fitting (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex01) |  {{< br >}}{{< br >}} For Question 1, use one of these sets of N=7 numbers. Each ZIP contains the numbers in a txt file, plus .oct and .mat files you can read directly into Octave or MATLAB®. {{< br >}}{{< br >}} [Exercise 1: Set 1 numbers (ZIP)]({{< baseurl >}}/resources/ex1_set01) {{< br >}}{{< br >}} [Exercise 1: Set 2 numbers (ZIP)]({{< baseurl >}}/resources/ex1_set02) {{< br >}}{{< br >}} [Exercise 1: Set 3 numbers (ZIP)]({{< baseurl >}}/resources/ex1_set03) {{< br >}}{{< br >}}  |
-| [Exercise 2. Integrating Ordinary Differential Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex02) | &nbsp; |
-| [Exercise 3. Solving 2-point ODEs (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex03) |  {{< br >}}{{< br >}} For Question 1, use one of these sets of expressions. Each ZIP contains the expressions in a txt file, plus .oct and .mat files you can read directly into Octave or MATLAB. {{< br >}}{{< br >}} [Exercise 3: Set 1 expressions (ZIP)]({{< baseurl >}}/resources/ex3_exp01) {{< br >}}{{< br >}} [Exercise 3: Set 2 expressions (ZIP)]({{< baseurl >}}/resources/ex3_exp02) {{< br >}}{{< br >}} [Exercise 3: Set 3 expressions (ZIP)]({{< baseurl >}}/resources/ex3_exp03) {{< br >}}{{< br >}}  |
-| [Exercise 4. Partial Differential Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex04) | &nbsp; |
-| [Exercise 5. Diffusion and Parabolic Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex05) | [Exercise 5 example solution (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex05_soln) |
-| [Exercise 6. Iterative Solution of Matrix Problems (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex06) | &nbsp; |
-| [Exercise 7. Fluids and Hyperbolic Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex07) | &nbsp; |
-| [Exercise 8. Boltzmann's Equation (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex08) | &nbsp; |
-| [Exercise 9. Neutron Transport (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex09) |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+EXERCISES
+{{< thclose >}}
+{{< thopen >}}
+SUPPORTING MATERIALS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 1. Data Fitting (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex01)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+For Question 1, use one of these sets of N=7 numbers. Each ZIP contains the numbers in a txt file, plus .oct and .mat files you can read directly into Octave or MATLAB®.
+
+[Exercise 1: Set 1 numbers (ZIP)]({{< baseurl >}}/resources/ex1_set01)
+
+[Exercise 1: Set 2 numbers (ZIP)]({{< baseurl >}}/resources/ex1_set02)
+
+[Exercise 1: Set 3 numbers (ZIP)]({{< baseurl >}}/resources/ex1_set03)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 2. Integrating Ordinary Differential Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex02)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 3. Solving 2-point ODEs (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex03)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+For Question 1, use one of these sets of expressions. Each ZIP contains the expressions in a txt file, plus .oct and .mat files you can read directly into Octave or MATLAB.
+
+[Exercise 3: Set 1 expressions (ZIP)]({{< baseurl >}}/resources/ex3_exp01)
+
+[Exercise 3: Set 2 expressions (ZIP)]({{< baseurl >}}/resources/ex3_exp02)
+
+[Exercise 3: Set 3 expressions (ZIP)]({{< baseurl >}}/resources/ex3_exp03)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 4. Partial Differential Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex04)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 5. Diffusion and Parabolic Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex05)
+{{< tdclose >}}
+{{< tdopen >}}
+[Exercise 5 example solution (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex05_soln)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 6. Iterative Solution of Matrix Problems (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex06)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 7. Fluids and Hyperbolic Equations (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex07)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 8. Boltzmann's Equation (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex08)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Exercise 9. Neutron Transport (PDF)]({{< baseurl >}}/resources/mit22_15f14_ex09)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
