@@ -55,7 +55,7 @@ Curriculum Information
 
 ### Prerequisites
 
-[_12.010 Computational Methods of Scientific Programming_](/courses/12-010-computational-methods-of-scientific-programming-fall-2011/) or permission of instructor.
+[_12.010 Computational Methods of Scientific Programming_](/courses/12-010-computational-methods-of-scientific-programming-fall-2011) or permission of instructor.
 
 ### Requirements Satisfied
 
